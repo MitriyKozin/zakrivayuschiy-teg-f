@@ -51,3 +51,18 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+body {
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color, #fff);
+}
+
+img {
+  max-width: 100%;
+}
+
+@supports (font-variation-settings: normal) {
+ body {
+      font-family: 'Inter-Variable',Arial, Helvetica, sans-serif;
+  }
+} 

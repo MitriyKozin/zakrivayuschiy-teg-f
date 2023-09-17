@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --themes-main-color: #000;
+  --bg-color: #fff;
+  --animation-like-save: #fff;
+  --main-font: 'Inter', Arial, Helvetica, sans-serif;
+  --accent-font: 'PressStart2P', Arial, Helvetica, sans-serif;
+  --text-weight: 400;
+  --heading-weight: 700;
+  --repeating-linear-gradient-1: #d3d3d3;
+  --linear-gradient-2: #e7e7e7;
+  --linear-gradient-3: #1a1a1a;
+  --shadow-text-image: #fff;
+
+  --main-color-heard: red;
+  /* --background-color-bacdrop: rgba(0, 0, 0, 0.75); */
+}
