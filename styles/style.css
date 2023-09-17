@@ -425,17 +425,13 @@
 
 .like-icon.is-liked .sparks {
   fill: var(--main-color-heard);
-  transition: 0.3s ease-out;
+  animation: sparks 0.3s ease-in 0.3s;
+  opacity: 0;
 }
 
 .like-icon.is-liked .heart {
   animation: heart 0.3s ease-in 0.1s;
   transform-origin: center;
-}
-
-.like-icon.is-liked .sparks {
-  animation: sparks 0.3s ease-in 0.3s;
-  opacity: 0;
 }
 
 @keyframes heart {
@@ -555,11 +551,7 @@
 }
 
 .footer__diskette {
-  color: var(--themes-main-color);
   transition: color 0.5s ease;
-}
-
-.footer__diskette {
   fill: var(--themes-main-color);
   margin: 0 auto;
   margin-block-start: 15px;
@@ -657,10 +649,6 @@
 
 .dialog__diskette-box {
   margin-block: auto;
-}
-
-.dialog__text {
-  display: flex;
 }
 
 .gialog__button {
