@@ -343,8 +343,9 @@
 .card__button {
   display: flex;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 3px;
+  justify-content: flex-end;
 }
 
 .card__like-button {
