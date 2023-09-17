@@ -155,7 +155,6 @@
 }
 
 .theme-menu__button:hover {
-  transition: none;
   opacity: 0.6;
   transition: 0.3s ease;
 }
@@ -477,7 +476,6 @@
 }
 
 .card__icon-button {
-  /* outline: 2px solid var(--themes-main-color); */
   outline: none;
   height: 35px;
   padding: 0;
@@ -563,13 +561,11 @@
 
 .footer__diskette {
   fill: var(--themes-main-color);
-  color: var(--themes-main-color);
   margin: 0 auto;
   margin-block-start: 15px;
   height: 28px;
   width: 28px;
   z-index: 1;
-  color: var(--themes-main-color);
 }
 
 .footer__button_text {
