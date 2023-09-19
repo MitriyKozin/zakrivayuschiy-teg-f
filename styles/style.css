@@ -54,12 +54,12 @@
   margin: 0 auto;
   min-inline-size: 375px;
   min-block-size: 100dvb; /*100dvb;*/
-  height: 576px;
   color: var(--themes-main-color, #000);
   background-color: var(--bg-color, #fff);
   font-family: var(--main-font, Arial, Helvetica, sans-serif);
-  font-variation-settings: 'wght' var(--text-weight),
-    'wght' var(--heading-weight);
+  font-variation-settings: 'wght' var(--heading-weight) 'wght'
+    var(--text-weight);
+
   background-image: repeating-linear-gradient(
       to top,
       transparent 0px 2px,
@@ -174,12 +174,6 @@
   transform: scaleX(1);
 }
 
-@keyframes strelochka {
-  to {
-    inset-inline-start: -14px;
-  }
-}
-
 .theme-menu__button:disabled::before {
   position: absolute;
   content: '▶';
@@ -215,7 +209,10 @@
 }
 
 .content__card-title {
-  border: 2px solid var(--themes-main-color);
+  /* border: 2px solid var(--themes-main-color); */
+  border-inline: 2px solid var(--themes-main-color);
+  border-block-start: 2px solid var(--themes-main-color);
+  border-block-end: 1px solid var(--themes-main-color);
   font-size: 18px;
   font-weight: var(--heading-weight);
   padding-block: 5px 1px;
@@ -228,16 +225,19 @@
   object-fit: cover;
   display: flex;
   flex-direction: column;
-  border: 2px solid var(--themes-main-color);
+  /* border: 2px solid var(--themes-main-color); */
+  border-block: 1px solid var(--themes-main-color);
+  border-inline: 2px solid var(--themes-main-color);
 }
 /*--текст-в-углу-кртинки----текст-в-углу-кртинки----текст-в-углу-кртинки----текст-в-углу-кртинки--*/
 
-.content__text-image::before {
+.content__card-image span {
   content: '';
   z-index: 2;
   position: absolute;
   inset-block-start: 22px;
   inset-inline-end: 12px;
+  mix-blend-mode: difference;
   color: var(--themes-main-color);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -247,65 +247,35 @@
   opacity: 0.75; /*0.5*/
 }
 
-.content__text-image_one::before {
-  /*.content__card-image::before*/
-  content: 'Начало пути';
-}
-.content__text-image_one img {
+.content__card-image_one img {
   filter: saturate(1);
 }
 
-.content__text-image_two::before {
-  content: 'Радость';
-}
-.content__text-image_two img {
+.content__card-image_two img {
   filter: saturate(110%) grayscale(0.3) contrast(110%);
 }
 
-.content__text-image_three::before {
-  content: 'Преодоление страхов';
-}
-.content__text-image_three img {
+.content__card-image_three img {
   filter: contrast(85%);
 }
 
-.content__text-image_four::before {
-  content: 'Посмотри в окно';
-}
-.content__text-image_four img {
+.content__card-image_four img {
   filter: brightness(0.9) grayscale(0.2) contrast(120%);
 }
 
-.content__text-image_five::before {
-  content: 'Поддержка важна';
-}
-.content__text-image_five img {
+.content__card-image_five img {
   filter: brightness(0.8) saturate(140%) contrast(70%);
 }
 
-.content__text-image_six::before {
-  content: 'Спокойный ум';
-}
-.content__text-image_six img {
+.content__card-image_six img {
   filter: brightness(0.8);
 }
 
-.content__text-image_seven::before {
-  content: 'Мотивация';
-}
-.content__text-image_seven img {
+.content__card-image_seven img {
   animation: lotuses 5s linear infinite;
 }
-@keyframes lotuses {
-  to {
-    filter: hue-rotate(180deg);
-  }
-}
 
-.content__text-image_eight::before {
-  content: 'Я здесь!';
-}
-.content__text-image_eight img {
+.content__card-image_eight img {
   filter: brightness(0.9) saturate(150%);
 }
 
@@ -313,7 +283,7 @@
   (text-stroke: 1px var(--shadow-text-image)) or
     (-webkit-text-stroke: 1px var(--shadow-text-image))
 ) {
-  .content__card-image::before {
+  .content__card-image span {
     -webkit-text-stroke: 1px var(--shadow-text-image);
     /* text-stroke: 1px var(--shadow-text-image); */ /*ошибка в коде*/
     text-shadow: none;
@@ -328,11 +298,14 @@
   font-family: var(--main-font);
   font-size: 19px;
   font-weight: var(--text-weight);
-  line-height: 21px;
+  line-height: 21px; 
   border: 2px solid var(--themes-main-color);
+  border-block-start: 1px solid var(--themes-main-color);
+  border-inline: 2px solid var(--themes-main-color);
+  border-block-end: 2px solid var(--themes-main-color);
 }
 
-.card_text {
+.card__text {
   display: flex;
   flex-direction: column;
   padding-inline-end: 7px;
@@ -434,30 +407,6 @@
   transform-origin: center;
 }
 
-@keyframes heart {
-  from {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes sparks {
-  from {
-    opasity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 .contour {
   fill: var(--themes-main-color);
 }
@@ -484,13 +433,13 @@
   outline: 2px solid var(--themes-main-color);
 }
 
-.footer {
+.warning-window {
   display: flex;
   justify-content: center;
-  padding-block: 50px 102px;
+  padding-block-end: 102px;
 }
 
-.footer__button {
+.warning-window__button {
   display: flex;
   flex-wrap: nowrap;
   gap: 9px;
@@ -504,7 +453,7 @@
   width: clamp(19.125rem, 25.1329rem + -25.6338vw, 2.0625rem);
 }
 
-.footer__button:focus {
+.warning-window__button:focus {
   outline: none;
   border: none;
   box-shadow: var(--themes-main-color) 2px 2px 0px 0px;
@@ -545,12 +494,12 @@
   transition: color 0.5s ease;
 }
 
-.button__animation:hover .footer__diskette {
+.button__animation:hover .button-image__diskette {
   color: var(--bg-color);
   transition: color 0.5s ease;
 }
 
-.footer__diskette {
+.button-image__diskette {
   transition: color 0.5s ease;
   fill: var(--themes-main-color);
   margin: 0 auto;
@@ -560,7 +509,7 @@
   z-index: 1;
 }
 
-.footer__button_text {
+.warning-window__button_text {
   align-self: center;
   padding-block-end: 13px;
   width: 266px;
@@ -590,7 +539,7 @@
     inset-inline-end: 23px;
   }
 
-  .footer__button {
+  .warning-window__button {
     width: 335px;
     padding: 15px 17px;
     display: flex;
@@ -598,13 +547,13 @@
     flex-wrap: nowrap;
   }
 
-  .footer__diskette {
+  .button-image__diskette {
     height: 21px;
     width: 21px;
     margin: 0 auto;
   }
 
-  .footer__button_text {
+  .warning-window__button_text {
     padding-block-end: 0;
   }
 }

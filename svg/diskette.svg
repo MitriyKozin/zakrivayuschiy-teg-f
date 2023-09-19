@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" fill="none"><path fill="#000" d="M.5 0h2.15v2.15H.5zM.5 2.15h2.15V4.3H.5zM.5 4.31h2.15v2.15H.5zM.5 6.46h2.15v2.15H.5zM.5 8.62h2.15v2.15H.5zM.5 10.77h2.15v2.15H.5zM.5 12.92h2.15v2.15H.5zM.5 15.08h2.15v2.15H.5zM.5 17.23h2.15v2.15H.5zM.5 19.38h2.15v2.15H.5zM.5 21.54h2.15v2.15H.5zM.5 23.69h2.15v2.15H.5zM.5 25.85h2.15V28H.5zM24.2 0v2.15h-2.16V0zM22.04 0v2.15h-2.15V0zM19.88 0v2.15h-2.15V0zM17.73 0v2.15h-2.15V0zM15.58 0v2.15h-2.15V0zM13.42 0v2.15h-2.15V0zM11.27 0v2.15H9.12V0zM9.12 0v2.15H6.97V0zM6.96 0v2.15H4.81V0zM4.8 0v2.15H2.67V0zM26.35 2.16V4.3H24.2V2.16zM6.96 4.3v2.16H4.8V4.3zM6.96 2.15V4.3H4.81V2.15zM6.96 6.46v2.15H4.81V6.46zM22.04 4.3v2.16h-2.15V4.3zM22.04 2.15V4.3H19.9V2.15zM22.04 6.46v2.15H19.9V6.46zM17.73 4.3v2.16h-2.15V4.3zM17.73 2.15V4.3h-2.15V2.15zM17.73 6.46v2.15h-2.15V6.46zM22.03 8.62v2.15h-2.15V8.62zM19.88 8.61v2.15h-2.15V8.61zM17.73 8.61v2.15h-2.15V8.61zM15.57 8.62v2.15h-2.15V8.62zM13.42 8.61v2.15h-2.15V8.61zM11.26 8.62v2.15H9.11V8.62zM9.11 8.62v2.15H6.96V8.62zM6.96 8.61v2.15H4.8V8.61zM24.19 15.07v2.15h-2.15v-2.15zM22.04 15.08v2.15h-2.15v-2.15zM19.88 15.07v2.15h-2.15v-2.15zM17.73 15.08v2.15h-2.15v-2.15zM15.57 15.08v2.15h-2.15v-2.15zM13.42 15.07v2.15h-2.15v-2.15zM11.27 15.08v2.15H9.12v-2.15zM9.11 15.08v2.15H6.96v-2.15zM6.96 15.08v2.15H4.8v-2.15zM24.2 17.23v2.15h-2.16v-2.15zM6.96 17.23v2.15H4.81v-2.15zM24.2 19.38v2.15h-2.15v-2.15zM6.97 19.38v2.15H4.82v-2.15zM24.2 21.54v2.15h-2.16v-2.15zM6.96 21.54v2.15H4.8v-2.15zM6.96 23.7v2.14H4.81V23.7zM24.2 23.69v2.15h-2.15v-2.15zM26.34 25.85V28H24.2v-2.15zM24.19 25.84V28h-2.15v-2.15zM22.04 25.85V28h-2.15v-2.15zM19.88 25.84V28h-2.15v-2.15zM17.73 25.85V28h-2.15v-2.15zM15.57 25.85V28h-2.15v-2.15zM13.42 25.84V28h-2.15v-2.15zM11.27 25.85V28H9.12v-2.15zM9.11 25.85V28H6.96v-2.15zM6.96 25.85V28H4.8v-2.15zM4.8 25.85V28H2.65v-2.15zM28.5 28h-2.15v-2.15h2.15zM28.5 25.84h-2.15V23.7h2.15zM28.5 23.7h-2.15v-2.16h2.15zM28.5 21.54h-2.15v-2.15h2.15zM28.5 19.39h-2.15v-2.15h2.15zM28.5 17.23h-2.15v-2.15h2.15zM28.5 15.07h-2.15v-2.15h2.15z"/><path fill="#000" d="M28.5 12.93h-2.15v-2.15h2.15zM28.5 10.77h-2.15V8.62h2.15zM28.5 8.61h-2.15V6.46h2.15zM28.5 6.46h-2.15V4.31h2.15z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" 
+width="28"
+ height="28" 
+ fill="none">
+ <symbol id="diskette">
+ <path fill="currentColor" d="M0 0h1.62v1.62H0zM0 1.62h1.62v1.62H0z"/>
+ <path fill="currentColor" d="M0 3.23h1.62v1.62H0zM0 4.85h1.62v1.62H0z"/>
+ <path fill="currentColor" d="M0 6.46h1.62v1.62H0zM0 8.08h1.62V9.7H0z"/>
+ <path fill="currentColor" d="M0 9.69h1.62v1.62H0zM0 11.31h1.62v1.62H0z"/>
+ <path fill="currentColor" d="M0 12.92h1.62v1.62H0zM0 14.54h1.62v1.62H0z"/>
+ <path fill="currentColor" d="M0 16.15h1.62v1.62H0zM0 17.77h1.62v1.62H0z"/>
+ <path fill="currentColor" d="M0 19.38h1.62V21H0zM17.77 0v1.62h-1.62V0zM16.15 0v1.62h-1.62V0z"/>
+ <path fill="currentColor" d="M14.54 0v1.62h-1.62V0z"/>
+ <path fill="currentColor" d="M12.92 0v1.62H11.3V0zM11.3 0v1.62H9.7V0zM9.7 0v1.62H8.06V0z"/>
+ <path fill="currentColor" d="M8.08 0v1.62H6.46V0zM6.46 0v1.62H4.84V0z"/>
+ <path fill="currentColor" d="M4.85 0v1.62H3.23V0zM3.23 0v1.62H1.61V0zM19.38 1.61v1.62h-1.62V1.61zM4.85 3.23v1.62H3.23V3.23z"/>
+ <path fill="currentColor" d="M4.84 1.62v1.62H3.22V1.62zM4.84 4.85v1.62H3.22V4.85zM16.15 3.23v1.62h-1.62V3.23z"/>
+ <path fill="currentColor" d="M16.15 1.61v1.62h-1.62V1.61zM16.15 4.84v1.62h-1.62V4.84zM12.92 3.23v1.62H11.3V3.23z"/>
+ <path fill="currentColor" d="M12.92 1.61v1.62H11.3V1.61zM12.92 4.84v1.62H11.3V4.84zM16.16 6.46v1.62h-1.62V6.46zM14.54 6.46v1.62h-1.62V6.46z"/>
+ <path fill="currentColor" d="M12.92 6.46v1.62H11.3V6.46zM11.3 6.46v1.62H9.7V6.46zM9.7 6.46v1.62H8.06V6.46z"/>
+ <path fill="currentColor" d="M8.08 6.46v1.62H6.46V6.46zM6.46 6.46v1.62H4.84V6.46z"/>
+ <path fill="currentColor" d="M4.85 6.47v1.62H3.23V6.47zM17.77 11.3v1.63h-1.62V11.3zM16.15 11.3v1.62h-1.62V11.3z"/>
+ <path fill="currentColor" d="M14.54 11.3v1.63h-1.62V11.3z"/>
+ <path fill="currentColor" d="M12.92 11.3v1.62H11.3V11.3zM11.3 11.31v1.62H9.7v-1.62zM9.69 11.3v1.63H8.07V11.3zM8.07 11.31v1.62H6.45v-1.62z"/>
+ <path fill="currentColor" d="M6.46 11.3v1.63H4.84V11.3zM4.84 11.31v1.62H3.22v-1.62zM17.77 12.92v1.62h-1.62v-1.62zM4.85 12.93v1.62H3.23v-1.62zM17.77 14.54v1.62h-1.62v-1.62z"/>
+ <path fill="currentColor" d="M4.84 14.54v1.62H3.22v-1.62zM17.77 16.15v1.62h-1.62v-1.62zM4.85 16.16v1.62H3.23v-1.62z"/>
+ <path fill="currentColor" d="M4.85 17.77v1.62H3.23v-1.62zM17.77 17.77v1.62h-1.62v-1.62zM19.39 19.38V21h-1.62v-1.62z"/>
+ <path fill="currentColor" d="M17.77 19.39V21h-1.62v-1.62z"/>
+ <path fill="currentColor" d="M16.16 19.38V21h-1.62v-1.62zM14.54 19.39V21h-1.62v-1.62z"/>
+ <path fill="currentColor" d="M12.93 19.38V21H11.3v-1.62z"/>
+ <path fill="currentColor" d="M11.31 19.39V21H9.7v-1.62zM9.7 19.38V21H8.08v-1.62zM8.08 19.39V21H6.46v-1.62z"/>
+ <path fill="currentColor" d="M6.47 19.38V21H4.85v-1.62zM4.85 19.39V21H3.23v-1.62z"/>
+ <path fill="currentColor" d="M3.24 19.38V21H1.62v-1.62zM21 21h-1.62v-1.62H21z"/>
+ <path fill="currentColor" d="M21 19.39h-1.62v-1.62H21zM21 17.77h-1.62v-1.62H21z"/>
+ <path fill="currentColor" d="M21 16.16h-1.62v-1.62H21zM21 14.54h-1.62v-1.62H21z"/>
+ <path fill="currentColor" d="M21 12.93h-1.62V11.3H21zM21 11.3h-1.62V9.7H21zM21 9.7h-1.62V8.06H21z"/>
+ <path fill="currentColor" d="M21 8.07h-1.62V6.45H21z"/>
+ <path fill="currentColor" d="M21 6.46h-1.62V4.84H21zM21 4.84h-1.62V3.22H21z"/>
+ </symbol>
+ </svg>

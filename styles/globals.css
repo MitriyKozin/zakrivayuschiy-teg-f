@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   background-color: var(--bg-color, #fff);
 }
 
@@ -30,6 +30,11 @@ li {
 
 a {
   color: inherit;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
 }
 
 button,
@@ -57,9 +62,3 @@ ol {
 img {
   max-width: 100%;
 }
-
-@supports (font-variation-settings: normal) {
- body {
-      font-family: 'Inter-Variable',Arial, Helvetica, sans-serif;
-  }
-} 
